@@ -13,6 +13,7 @@ This will create a new timer and return it
 ```isClock``` when true will repeatedly execute ```function``` after a period of ```delay``` seconds. And when false will execute ```function``` only once after ```delay``` seconds.
 
 If ```runOnCreation``` is true then ```function``` will run once ```newTimer``` is called. ```index``` dictates the index of ```timer``` in the table ```dim4.timers```
+
 ```runOnCreation``` and ```index``` are both optional unless ```index``` is given an boolean value and the ```runOnCreation``` arguement is completely left blank.
 
 ``` 
