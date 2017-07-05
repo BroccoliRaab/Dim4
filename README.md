@@ -40,7 +40,7 @@ Every timer must be updated by the ```love.update``` function in order to work p
 
 ```timer:destroy``` will stop the timer and remove it from ```dim4.timers```
 
-Every timer can be accessed using ```dim4.timer[index]``` where index is either what was specified in ```dim4:newTimer(isClock, delay, function, runOnCreation, index)``` or an integer.
+Every timer can be accessed using ```dim4.timers[index]``` where index is either what was specified in ```dim4:newTimer(isClock, delay, function, runOnCreation, index)``` or an integer.
 
 Timers have the following properties
 
